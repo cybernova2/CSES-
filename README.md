@@ -107,7 +107,7 @@ To update later: `git pull`, `npm install`, `npm run build`, then click the relo
 | Run engine | `src/run/` | One Web Worker per language; compilers and interpreters compiled to WebAssembly and packaged with the extension |
 | Submit | `src/content/submit.ts` | Fills CSES's real submit form (language, version, file) and submits it |
 
-More detail: [docs/run-feasibility.md](docs/run-feasibility.md) (Run research and measurements) and [docs/CSES-Plus-Interview-Prep.pdf](docs/CSES-Plus-Interview-Prep.pdf) (full technical write-up).
+More detail: [docs/run-feasibility.md](docs/run-feasibility.md) (Run research and measurements).
 
 ---
 
