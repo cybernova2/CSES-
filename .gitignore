@@ -1,0 +1,23 @@
+node_modules/
+dist/
+*.zip
+
+# Raw pages saved from a logged-in browser (contain a session token); scrubbed copies live in tests/fixtures
+CSES - */
+CSES - *.html
+
+# Runtime proof of concept: generated output
+poc/runtimes/node_modules/
+poc/runtimes/ext-dist/
+poc/runtimes/poc-results.json
+poc/runtimes/headers-ok.json
+poc/runtimes/dbg.mjs
+poc/runtimes/ext-src/*.wasm
+
+# Release zips (upload to GitHub Releases instead of committing)
+release/
+
+# Personal interview prep
+docs/interview/
+docs/CSES-Plus-Interview-Prep.pdf
+poc/

@@ -1,0 +1,35 @@
+{
+  "name": "csesplus",
+  "version": "0.1.0",
+  "private": true,
+  "description": "CSES+ — a lightweight Chrome extension that modernizes the CSES Problem Set UI.",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "watch": "node scripts/build.mjs --watch",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "smoke": "node scripts/smoke.mjs"
+  },
+  "dependencies": {
+    "@bjorn3/browser_wasi_shim": "^0.4.2",
+    "@jitl/quickjs-singlefile-browser-release-sync": "^0.32.0",
+    "@ruby/3.2-wasm-wasi": "^2.10.1",
+    "@ruby/wasm-wasi": "^2.10.1",
+    "@yowasp/clang": "^22.0.0-git20695-13",
+    "monaco-editor": "0.52.0",
+    "pyodide": "^0.27.7",
+    "quickjs-emscripten-core": "^0.32.0"
+  },
+  "devDependencies": {
+    "@puppeteer/browsers": "^2.4.1",
+    "@types/chrome": "0.0.287",
+    "@types/node": "^22.9.0",
+    "esbuild": "0.24.0",
+    "jsdom": "25.0.1",
+    "puppeteer-core": "^23.9.0",
+    "typescript": "5.6.3",
+    "vitest": "2.1.5"
+  }
+}
